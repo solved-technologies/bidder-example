@@ -21,7 +21,7 @@ def main():
             "building_stories": 2,
             "contact_tcpa_consent": True,
             "windows_count": 3,
-            "property_zipcode": "20500",
+            "property_zipcode": "02201",
             "request_emergency": False,
             "request_timestamp": str(datetime.datetime.now()),
         },
@@ -60,9 +60,9 @@ def main():
             "contact_phone_mobile": "987-654-3210",
             "contact_tcpa_consent": True,
             "ping_uuid": ping_response_data["ping_uuid"],
-            "property_address": "1600 Pennsylvania Avenue NW",
-            "property_city": "Washington",
-            "property_state": "DC",
+            "property_address": "1 City Hall Square #500",
+            "property_city": "Boston",
+            "property_state": "MA",
         }
     )
 
