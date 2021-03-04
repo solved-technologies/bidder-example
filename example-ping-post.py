@@ -29,7 +29,7 @@ def main():
         "test": True,
     }
 
-    ping_request_url = "https://solvedhome-bidder.herokuapp.com/v1/ping"
+    ping_request_url = "https://bidder.solvedhome.io/v1/ping"
 
     print("PING REQUEST:")
     print(json.dumps(ping_request_data))
@@ -67,7 +67,7 @@ def main():
         }
     )
 
-    post_request_url = "https://solvedhome-bidder.herokuapp.com/v1/post"
+    post_request_url = "https://bidder.solvedhome.io/v1/post"
 
     print("POST REQUEST:")
     print(json.dumps(post_request_data))
