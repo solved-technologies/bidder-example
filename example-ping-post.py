@@ -25,6 +25,7 @@ def main():
             "property_zipcode": "02201",
             "request_emergency": False,
             "request_timestamp": str(datetime.datetime.now()),
+            "windows_action": "replace",
         },
         "test": True,
     }
