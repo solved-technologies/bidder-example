@@ -18,10 +18,10 @@ def main():
     ping_request_data = {
         "lead_vertical": "windows",
         "lead_data": {
-            "building_stories": 2,
             "contact_tcpa_consent": True,
             "contact_tcpa_text": "I consent to robots calling me...",
             "windows_count": 3,
+            "property_stories": 2,
             "property_zipcode": "02201",
             "request_emergency": False,
             "request_timestamp": str(datetime.datetime.now()),
